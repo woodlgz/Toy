@@ -11,7 +11,7 @@
 #include "SDL.h"
 #include "SDL_image.h"
 
-#define RES_FOLDER	"./Res"
+#define RES_FOLDER	"../Res"
 
 using namespace std;
 
