@@ -1,0 +1,3 @@
+//download all packages of SDL,including SDL_image,SDL_image-devel
+yum install SDL*
+
