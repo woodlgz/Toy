@@ -1,4 +1,4 @@
-SDL
+My Playground and Toys
 ===
 
-SDL
+standard library implementation.
