@@ -1,7 +1,9 @@
-#include <iostream>
-#include <string>
 #include <type_traits>
 #include <utility>
+
+#ifndef __LGZSTD_TUPLE_H__
+#define __LGZSTD_TUPLE_H__
+
 
 namespace lgz {
 
@@ -84,9 +86,4 @@ namespace lgz {
 
 }
 
-int main(){
-	lgz::MyTuple<int,double,std::string> t(1,3.14,"hello");
-	std::cout<<lgz::get<2>(t)<<std::endl;
-	std::cout<<t.get<1>()<<std::endl;
-	return 0;
-}
+#endif
